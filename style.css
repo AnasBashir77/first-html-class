@@ -1,0 +1,47 @@
+.top
+{
+    background-color: blue;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    text-align: center;
+    transition:5s;
+    
+
+}
+.center
+{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    text-align: center;
+    transition: width 3s;
+    
+}
+.top:hover
+{
+    width:200px;
+}
+.center:hover
+{
+    width: 200px;
+    
+
+}
+.bottom
+{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    text-align: center;
+    transition: width 3s;
+    margin-top: 20px;
+    transition: 2s;
+    transform: translate(42px, 18px);
+    
+}
+
+
